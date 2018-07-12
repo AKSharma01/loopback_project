@@ -35,7 +35,7 @@
     "dataSource": "db",
     "public": false
   },
-  "user": {
+  "hauler": {
     "dataSource": "db",
     "public": true
   }

@@ -53,7 +53,7 @@ function validateCredential(db, credentialObject, haulerObject, callback){
 		jwtUtility.jwtTokenGenerator(userId, function(token){
 			let responseTransformed = transformer.registerHauler.response(haulerObject);
 			responseTransformed['token'] = token;
-			success(responseTransformed, httpConstant.hauler_login.status, httpConstant.hauler_login.msg callback);
+			success(responseTransformed, httpConstant.hauler_login.status, httpConstant.hauler_login.msg, callback);
 		}, callback)
 
 	});

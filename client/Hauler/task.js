@@ -1,7 +1,6 @@
 import utility from '../Utility/index';
 import transformer from './transformer/index';
 import {success, failed} from '../../Response/response';
-import taskTransformer from '../Task/transformer/index';
 
 let ObjectID = utility.ObjectID;
 let repository = utility.repository;

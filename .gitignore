@@ -16,5 +16,6 @@
 .strong-pm
 coverage
 node_modules
+dist
 npm-debug.log
 package-lock.json

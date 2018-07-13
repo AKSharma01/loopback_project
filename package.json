@@ -11,7 +11,7 @@
     "posttest": "npm run lint && nsp check",
     "seeder": "node server/seeder/index.js",
     "build": "babel src --out-dir dist --copy-files",
-    "babel": "babel-node client/Hauler/index.js --plugins babel-plugin-inline-import"
+	"server": "npm run build && node ./dist/server/server.js"
   },
   "dependencies": {
     "aws-sdk": "^2.229.1",

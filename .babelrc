@@ -3,5 +3,8 @@
 	"plugins": [
 		"babel-plugin-inline-import",
 		"transform-runtime"
+	],
+	"ignore": [
+		"node_modules"
 	]
 }

@@ -1,0 +1,41 @@
+{
+	"200": "=========================== > 200 status ========================",
+	"hauler_login": {
+		"status": 200,
+		"msg": "login successfully"
+	},
+	"task_created": {
+		"status": 201,
+		"msg": "task created successfully"
+	},
+
+
+	"400": "=========================== > 400 status ========================",
+	"create_task_failed": {
+		"status": 400,
+		"msg": "task cannot be created at previous date"
+	},
+	"hauler_invalid": {
+		"status": 401,
+		"msg": "username or password is invalid."
+	},
+	"hauler_not_found": {
+		"status": 404,
+		"msg": "hauler not found"
+	},
+	"sequence_error": {
+		"status": 417,
+		"msg": null
+	},
+	"jwt_err": {
+		"status": 420,
+		"msg": null
+	},
+	
+	
+	"500": "=========================== > 500 status =========================",
+	"connection_err": {
+		"status": 500,
+		"msg": "connection error"
+	}
+}

@@ -10,7 +10,7 @@ let argV = process.argv;
 
 if(argV.length>3){
 	console.log("!!!! too many options")
-	return;
+	// return;
 }
 
 let seederOption = argV;

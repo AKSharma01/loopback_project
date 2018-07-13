@@ -9,7 +9,9 @@
     "lint": "eslint .",
     "start": "nodemon . --exec babel-node",
     "posttest": "npm run lint && nsp check",
-    "seeder": "node server/seeder/index.js"
+    "seeder": "node server/seeder/index.js",
+    "build": "babel src --out-dir dist --copy-files",
+    "babel": "babel-node client/Hauler/index.js --plugins babel-plugin-inline-import"
   },
   "dependencies": {
     "aws-sdk": "^2.229.1",
@@ -39,6 +41,7 @@
     "babel-preset-env": "^1.6.1",
     "eslint": "^3.17.1",
     "eslint-config-loopback": "^8.0.0",
+    "nodemon": "^1.18.1",
     "nsp": "^2.1.0"
   },
   "repository": {
